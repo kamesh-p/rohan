@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(47, 48, 58);
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+.images,
+.images1,
+.images2,
+.images3 {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(36, 37, 46);
+  position: relative;
+}
+.para {
+  color: rgb(181, 181, 181);
+  font-size: 1rem;
+}
+p {
+  color: white;
+  font-size: 1.25rem;
+}
+.b1 {
+  border-radius: 100%;
+  background-color: rgba(65, 189, 120, 0.92);
+  color: black;
+  padding: 10px 15px;
+  position: absolute;
+  bottom: -15px;
+  /* border: 1px solid white; */
+  right: 10px;
+  font-size: 1rem;
+}
+.btn {
+  background-color: rgb(47, 48, 58);
+  color: white;
+  border: 1px solid white;
+  font-size: 0.6rem;
+  padding: 10px 15px;
+  border: 1px solid rgb(181, 181, 181);
+  color: rgb(181, 181, 181);
+}
+
+.btn2 {
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  border-radius: 100%;
+  float: right;
+  margin-right: 80px;
+  cursor: pointer;
+}
+.img {
+  width: 10%;
+  height: 20%;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.image {
+  box-sizing: border-box;
+  width: 200px;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+  width: 110%;
+}
+.items {
+  align-items: center;
+  /* text-align: center; */
+  padding: 10px 25px;
+}
+.dropdown {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  display: none;
+}
+.dropdown ul {
+  padding-left: 0px !important;
+  list-style: none;
+  padding: 10px;
+}
+.dropdown li {
+  padding: 8px;
+  font-size: 1rem;
+}
+.btn2:hover .dropdown {
+  display: block;
+}
